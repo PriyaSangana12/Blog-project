@@ -4,9 +4,9 @@
 
 ### This repository contains the code and content for my blog
 
-# Topics:
+## Topics:
 
-- #### About
-- #### My code Schedule
-- #### Skills
-- #### Contact Me
+- ### About
+- ### My code Schedule
+- ### Skills
+- ### Contact Me
