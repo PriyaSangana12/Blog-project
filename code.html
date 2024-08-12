@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
   <head>
-    <title>My Blog</title>
-    <!-- <link
-      href="https://fonts.googleapis.com/css?family=Handlee"
-      rel="stylesheet"
-    /> -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Project</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
+  <body>
+    <div>
 
   <body>
     <!-- header start -->
@@ -14,29 +16,39 @@
     <!-- header end -->
 
     <!-- About Me section start -->
+    
     <h1>About Me</h1>
     <p>
       Hey! I'm <strong>PRIYA SANGANA</strong>... I'm very enthusiastic about the
-      dream of becoming a Software Engineer. I am very good listener and
-      effective speaker.I have good knowledge in C, Python, Data Structures,
-      HTML, CSS, SQL and have completed few internships where I applied my
-      learnings in practical settings.Coding has changed my world. It's not just
-      about apps. Learning to code gave me <i>problem-solving skills</i> and a
-      way to communicate with others on a technical level. I can also develop
-      websites and use my coding skills to get a better job.
+      dream of becoming a Software Engineer.
     </p>
+
+    <p>
+      I am very good listener and effective speaker.I have good knowledge in C,
+      Python, Data Structures, HTML, CSS, SQL.
+    </p>
+    <p>
+      I've completed few internships where I applied my learnings in practical
+      settings.
+    </p>
+    <p>
+      Learning to code gave me <i>problem-solving skills</i> and a way to
+      communicate with others on a technical level.
+    </p>
+    I can also develop websites and use my coding skills to get a better job.
+
     <!-- About Me section end -->
 
     <!-- My Schedule section start -->
     <h1>My Coding Schedule</h1>
-    <table>
+    <table cellpadding="8 " cellspacing="0">
       <tr>
         <th>Day</th>
-        <th>Mon</th>
-        <th>Tue</th>
-        <th>Wed</th>
-        <th>Thu</th>
-        <th>Fri</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
       </tr>
       <tr>
         <td>8-8:30</td>
@@ -82,64 +94,87 @@
     <!-- My Schedule section end -->
 
     <!-- My Skills section start -->
-    <h1>My Skills</h1>
-    <ul>
-      <li>
-        HTML <br />
-        <progress min="0" max="100" value="80"></progress>
-      </li>
-      <li>
-        Python <br />
-        <progress min="0" max="100" value="70"></progress>
-      </li>
-      <li>
-        CSS <br />
-        <progress min="0" max="100" value="50"></progress>
-      </li>
-      <li>
-        SQL <br />
-        <progress min="0" max="100" value="60"></progress>
-      </li>
-      <li>
-        C <br />
-        <progress min="0" max="100" value="80"></progress>
-      </li>
-    </ul>
-    <!-- My Skills section end -->
+    <div class="side">
+      <div>
+        <h1>My Skills</h1>
+        <ul>
+          <li>
+            HTML <br />
+            <progress min="0" max="100" value="80"></progress>
+          </li>
+          <li>
+            Python <br />
+            <progress min="0" max="100" value="75"></progress>
+          </li>
+          <li>
+            CSS <br />
+            <progress min="0" max="100" value="50"></progress>
+          </li>
+          <li>
+            SQL <br />
+            <progress min="0" max="100" value="55"></progress>
+          </li>
+          <li>
+            C <br />
+            <progress min="0" max="100" value="65"></progress>
+          </li>
+        </ul>
+      </div>
+      <!-- My Skills section end -->
 
-    <!-- Form section start -->
-    <h1>Contact Me</h1>
-    <form>
-      <input name="name" placeholder="Name" type="text" required /><br /><br />
-      <input name="email" placeholder="Email" type="email" required /><br />
-      <textarea name="message" placeholder="Message" required></textarea><br />
-      <input type="submit" value="SEND" />
-    </form>
-    <br />
+      <!-- Form section start -->
+      <div>
+        <h1>Contact Me</h1>
+        <form>
+          <input name="name" placeholder="Name" type="text" />
+          <input name="email" placeholder="Email" type="email" />
+          <textarea name="message" placeholder="Message"></textarea>
+          <button type="submit">SEND</button>
+        </form>
+        <br />
+        <div class="imgs">
+          <a href="#" target="_blank">
+            <img
+              alt="linkedin"
+              src="Images/images.png"
+              height="20px width=20px"
+            />
+          </a>
+
+          <a href="#">
+            <img
+              alt="Instagram"
+              src="Images/image1.jpeg"
+              height="23px width=23px"
+            />
+          </a>
+
+          <a href="#">
+            <img
+              alt="Github"
+              src="Images/image3.png"
+              height="21px width=21px"
+            />
+          </a>
+          <a href="#">
+            <img alt="gmail" src="Images/image4.png" height="18px width=18px" />
+          </a>
+          <a href="#">
+            <img
+              alt="telegram"
+              src="Images/image5.png"
+              height="20px width=20px"
+            />
+          </a>
+          <br /><br />
+        </div>
+      </div>
+    </div>
 
     <!-- Form section end -->
 
-    <!-- Contacts section start -->
-
-    <a href="#" target="_blank">
-      <img alt="linkedin" src="images.png" height="20px width=20px" />
-    </a>
-    <a href="#">
-      <img alt="Instagram" src="image1.jpeg" height="23px width=23px" />
-    </a>
-    <a href="#">
-      <img alt="Github" src="image3.png" height="21px width=21px" />
-    </a>
-    <a href="#">
-      <img alt="gmail" src="image4.png" height="18px width=18px" />
-    </a>
-    <a href="#">
-      <img alt="telegram" src="image5.png" height="20px width=20px" />
-    </a>
-    <br /><br />
-
     <!-- Contacts section end -->
 
-    <div>Thank You For Visiting My Blog</div>
+    <div class="end">Thank You For Visiting My Blog</div>
   </body>
 </html>

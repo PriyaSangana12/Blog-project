@@ -10,3 +10,5 @@
 - ### My code Schedule
 - ### Skills
 - ### Contact Me
+
+## I've useed basic HTML and CSS to create this Blog,It is a simple project to create a personal blog page.
